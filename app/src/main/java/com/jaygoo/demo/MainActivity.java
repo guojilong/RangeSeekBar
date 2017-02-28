@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     private RangeSeekBar seekbar1;
     private RangeSeekBar seekbar2;
+    private RangeSeekBar seekbar3;
     private TextView tv2;
     private DecimalFormat df = new DecimalFormat("0.00");
 
@@ -42,6 +43,25 @@ public class MainActivity extends AppCompatActivity {
                     seekbar2.setLeftProgressDescription(df.format(min));
                     seekbar2.setRightProgressDescription(df.format(max));
                 }
+            }
+        });
+
+
+      seekbar3= (RangeSeekBar) findViewById(R.id.seekbar3);
+        seekbar3.setValue(0,30);
+        seekbar3.setOnRangeChangedListener(new RangeSeekBar.OnRangeChangedListener() {
+            @Override
+            public void onRangeChanged(RangeSeekBar view, float min, float max, boolean isFromUser) {
+//                if(isFromUser){
+
+                    if(max==31){
+                        seekbar3.setRightProgressDescription("不限");
+                    }else {
+                        seekbar3.setRightProgressDescription((int)max+"");
+
+                    }
+
+//                }
             }
         });
 

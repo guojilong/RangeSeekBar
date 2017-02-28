@@ -17,11 +17,9 @@
         <item>0.9</item>
     </string-array>
     <string-array name="negativeMarkArray">
-        <item>-100</item>
-        <item>中间</item>
         <item>0</item>
-        <item>中间</item>
-        <item>100</item>
+        <item>30</item>
+        <item>不限</item>
     </string-array>
 
     <string-array name="wordsArray">

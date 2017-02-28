@@ -90,6 +90,23 @@
             <enum name="single" value="1"/>
             <enum name="range" value="2"/>
         </attr>
+        <attr name="alwaysShowingHint" format="boolean"/>
+        <attr name="hintDirection" format="enum">
+            <enum name="top" value="1"/>
+            <enum name="bottom" value="2"/>
+            </attr>
+        <attr name="showHintBg" format="boolean"/>
+        <attr name="showMark" format="boolean"/>
+        <attr name="showSelectedArea" format="boolean"/>
+        <attr name="thumbPosition" format="enum">
+
+            <enum name="middle" value="1"/>
+            <enum name="above" value="2"/>
+            <enum name="below" value="3"/>
+        </attr>
+        <attr name="thumbPadding" format="dimension"/>
+        <attr name="hintTextColor" format="color"/>
+
 
     </declare-styleable>
 </resources>
