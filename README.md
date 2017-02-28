@@ -3,6 +3,16 @@
 
 ## [中文文档](https://github.com/Jay-Goo/RangeSeekBar/blob/master/README_ZH.md) 
 
+##Added 
+markers 
+hintDirection
+hintTextColor
+
+fix:
+custom thumb position  
+
+![image](https://github.com/guojilong/RangeSeekBar/blob/master/Gif/marker.png)
+
 
 ![image](https://github.com/Jay-Goo/RangeSeekBar/blob/master/Gif/2017-02-08%2019_27_55.gif)
 
